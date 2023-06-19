@@ -1,0 +1,40 @@
+.navbars{
+    .mainnav{
+
+        nav{
+            margin-top: 10px;
+            display: flex;
+            height: 63px;
+            ul{
+                display: flex;
+                li{
+                    color: rgba(0,0,0,.38);
+                    display: flex;
+                    padding-left: 50px;
+                    font-size: 15px;
+                    
+                
+                }
+                li:hover{
+ border-bottom: 2px solid green;
+ background-color: rgb(224, 243, 237);
+ transition: 0.5s;
+ 
+
+                }
+                
+            }
+            button{
+                margin-left: 794px;
+                background-color: #058d66;
+                color: white;
+                width: 150px;
+                font-size: 15px;
+                height: 40px;
+                margin-top: 10px;
+                border-radius: 10px;
+                border: none;
+            }
+        }
+    }
+}

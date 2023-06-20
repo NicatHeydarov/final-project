@@ -1,2 +1,12 @@
 @import './components/navbar/navbar';
 @import './components/slides/slide';
+@import './components/credits/credits';
+@import './components/bizness/biznes';
+@import './components/innovation/innovation';
+@import './components/mount/mount';
+@import './components/download/download';
+@import './components/valyutas/valyuta';
+
+body{
+    height: 10000px;
+}

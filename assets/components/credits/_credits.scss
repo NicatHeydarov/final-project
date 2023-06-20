@@ -1,0 +1,33 @@
+.onlayn-credits {
+    h5 {
+        font-size: 30px;
+        width: 700px;
+    }
+
+    .credits-cards {
+        display: flex;
+
+        .credit-card {
+            display: block;
+            margin-left: 100px;
+            margin-top: 50px;
+            margin-left: 70px;
+            width: 500px;
+            height: 350px;
+            margin-top: 50px;
+            margin-left: 70px;
+            box-shadow: 0 2px 7px rgba(0, 0, 0, .2);
+            background-color: #fff;
+            border-radius: 10px;
+            
+            h4{
+                color: black;
+                font-size: 27px;
+            }
+            li{
+                list-style: none;
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.mounts{
+    margin-top: 185px;
+    margin-left: 100px;
+    h2{
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: .25px;
+        width: 720px;
+    }
+    .value-cards{
+        display: flex;
+        .value-card{
+            margin-left: 30px;
+          h1{
+            font-size: 85px;
+            margin-top: 8px;
+          }
+          
+          
+        .lot{
+         margin-top: 36px;
+          display: block;
+          width: 471px;
+          margin-left: 11px;
+          height: 60px;
+          border-radius: 10px;
+          font-size: 20px;
+          border: none;
+          background-color: white;
+        }
+        .lot:hover{
+            background-color: #f1f9f7;
+            transition: 0.5s;
+        }
+
+        .acount{
+            display: block;
+            width: 471px;
+            margin-left: 11px;
+            height: 60px;
+            border-radius: 10px;
+            border: none;
+           font-size: 20px;
+            background-color: #099a71;
+        }
+        .acount:hover{
+            background-color: #5fcfaf;
+            transition: 0.5s;
+        }
+          
+
+          
+          
+          
+          h4{
+            margin-top: -125px;
+    margin-left: 69px;
+    font-size: 19px;
+    color: #9e9e9e;
+          }
+          li{
+            list-style: none;
+            font-size: 21px;
+            margin-top: 15px;
+            span{
+                color: #099a71;
+            }
+          }
+            width: 500px;
+            height: 800px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    img:nth-child(2){
+        margin-left: 18px;
+        width: 410px;
+    }
+        }
+    }
+    .value-card:nth-child(2){
+        h4{
+            margin-top: -125px;
+    margin-left: 125px;
+    font-size: 19px;
+    color: #9e9e9e;
+          }
+    }
+    .value-card:nth-child(3){
+        h4{
+            margin-top: -125px;
+    margin-left: 185px;
+    font-size: 19px;
+    color: #9e9e9e;
+          }
+    }
+}

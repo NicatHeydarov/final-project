@@ -1,0 +1,55 @@
+.final-page {
+    margin-top: 150px;
+    margin-left: 100px;
+
+    .numbers {
+        a {
+            font-size: 20px;
+
+            img {
+                width: 180px;
+            }
+        }
+    }
+    .numbers-contact{
+        display: flex;
+        margin-left: 200px;
+        margin-top: -90px;
+        .number-contact{
+         h3{
+            font-size: 18px;
+            margin-left: 80px;
+            color: rgba(0,0,0,.87);
+         }
+         h5{
+            margin-left: 85px;
+            color: rgba(0,0,0,.6);
+         }
+        }
+    }
+    .informations{
+        margin-top: 70px;
+        display: flex;
+        .information{
+            margin-left: 130px;
+            li{
+                list-style: none;
+                margin-top: 30px;
+                font-size: 17px;
+                color: rgba(0,0,0,.6);
+            }
+            li:hover{
+                color: black;
+                transition: 0.5s;
+            }
+            .web-icons{
+                display: flex;
+                
+                i{
+                    margin-top: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

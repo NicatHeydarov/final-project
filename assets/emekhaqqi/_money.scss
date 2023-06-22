@@ -4,7 +4,7 @@
 
 body {
     font-family: Verdana, sans-serif;
-    margin: 0
+    margin: 0;
 }
 
 .mySlides {
@@ -122,37 +122,41 @@ img {
 
 .slideshow {
     .mySlides{
-        display: flex;
-        .lot{
-            margin-top: 36px;
-             display: block;
-             width: 471px;
-             margin-left: 11px;
-             height: 60px;
-             border-radius: 10px;
-             font-size: 20px;
-             border: none;
-             background-color: white;
-           }
-           .lot:hover{
-               background-color: #f1f9f7;
-               transition: 0.5s;
-           }
-   
-           .acount{
-               display: block;
-               width: 471px;
-               margin-left: 11px;
-               height: 60px;
-               border-radius: 10px;
-               border: none;
-              font-size: 20px;
-               background-color: #099a71;
-           }
-           .acount:hover{
-               background-color: #5fcfaf;
-               transition: 0.5s;
-           }
+     
+        
+            .lot{
+                margin-top: 36px;
+                 display: block;
+                 width: 471px;
+                 margin-left: 11px;
+                 height: 60px;
+                 border-radius: 10px;
+                 font-size: 20px;
+                 border: none;
+                 background-color: white;
+               }
+               .lot:hover{
+                   background-color: #f1f9f7;
+                   transition: 0.5s;
+               }
+       
+               .acount{
+                   display: block;
+                   width: 471px;
+                   margin-left: 11px;
+                   height: 60px;
+                   border-radius: 10px;
+                   border: none;
+                  font-size: 20px;
+                   background-color: #099a71;
+               }
+               .acount:hover{
+                   background-color: #5fcfaf;
+                   transition: 0.5s;
+               }
+
+        
+
     }
     .mySlides:first-child {
         background: linear-gradient(271.2deg, rgba(241, 249, 247, 0.56) -5.13%, rgba(224, 243, 241, 0.56) 30.4%, rgba(253, 246, 231, 0.56) 51.19%, rgba(255, 235, 240, 0.56) 79.79%);
@@ -199,3 +203,56 @@ img {
 //     background-color: rgba(255, 255, 255, 0.5);
 //   }
 // }
+
+.page-two{
+    height: 2000px;
+    .contact-cards{
+        display: flex;
+        margin-left: 200px;
+        .contact-card{
+            margin-left: 100px;
+            // background-color: black;
+            width: 400px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            height: 200px;
+            h2{
+                font-size: 30px;
+            }
+           
+        }
+        .contact-card:nth-child(2){
+            h2{
+                margin-top: 50px;
+            }
+        }
+        .contact-card:nth-child(3){
+            h2{
+                margin-top: 50px;
+            }
+        }
+        h2{
+            margin-top: 419px;
+            font-size: 30px;
+            margin-left: -1025px;
+        }
+    }
+    .contact-boxes{
+        display: flex;
+        margin-left: 0px;
+        margin-top: 500px;
+        .contact-box{
+            margin-left: 100px;
+            // background-color: black;
+            width: 400px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            height: 200px;
+            h2{
+                font-size: 30px;
+            }
+           
+        }
+      
+    }
+}

@@ -1,3 +1,10 @@
+.navbars {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .navbars .mainnav nav {
   margin-top: 10px;
   display: flex;
@@ -44,6 +51,7 @@
   padding: 16px;
   font-size: 16px;
   border: none;
+  width: 100%;
 }
 
 .dropdown {
@@ -65,6 +73,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  width: 100%;
 }
 
 .dropdown-content a:hover {
@@ -187,7 +196,7 @@ img {
   background-color: rgb(224, 243, 237);
 }
 .slideshow .mySlides:first-child img {
-  width: 70% !important;
+  width: 49% !important;
   height: 605px;
   margin-left: 505px;
 }
@@ -224,6 +233,7 @@ img {
   display: flex;
 }
 .onlayn-credits .credits-cards .credit-card {
+  text-decoration: none !important;
   display: block;
   margin-left: 100px;
   margin-top: 50px;
@@ -375,6 +385,11 @@ img {
   line-height: 24px;
   letter-spacing: 0.5px;
   width: 318px;
+}
+.innovation .texts img {
+  margin-left: 818px;
+  margin-top: -688px;
+  width: 985px;
 }
 
 .mounts {
@@ -1228,9 +1243,6 @@ img {
   background-color: black;
 }
 
-.slideshow .mySlides {
-  display: flex;
-}
 .slideshow .mySlides .lot {
   margin-top: 36px;
   display: block;
@@ -1291,6 +1303,95 @@ img {
   width: 55% !important;
   height: 605px;
   margin-left: 758px;
+}
+
+.page-two {
+  height: 2000px;
+}
+.page-two .contact-cards {
+  display: flex;
+  margin-left: 200px;
+}
+.page-two .contact-cards .contact-card {
+  margin-left: 100px;
+  width: 400px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 200px;
+}
+.page-two .contact-cards .contact-card h2 {
+  font-size: 30px;
+}
+.page-two .contact-cards .contact-card:nth-child(2) h2 {
+  margin-top: 50px;
+}
+.page-two .contact-cards .contact-card:nth-child(3) h2 {
+  margin-top: 50px;
+}
+.page-two .contact-cards h2 {
+  margin-top: 419px;
+  font-size: 30px;
+  margin-left: -1025px;
+}
+.page-two .contact-boxes {
+  display: flex;
+  margin-left: 0px;
+  margin-top: 500px;
+}
+.page-two .contact-boxes .contact-box {
+  margin-left: 100px;
+  width: 400px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 200px;
+}
+.page-two .contact-boxes .contact-box h2 {
+  font-size: 30px;
+}
+
+.first-img .slide-img {
+  background-color: #f1faf8;
+}
+.first-img .slide-img img {
+  width: 713px;
+  margin-left: 980px;
+}
+.first-img .text-img {
+  margin-top: -540px;
+  margin-left: 56px;
+}
+.first-img .text-img h2 {
+  font-size: 30px;
+}
+.first-img .text-img h1 {
+  font-size: 30px;
+}
+.first-img .text-img h4 {
+  font-size: 20px;
+}
+.first-img .text-img button {
+  background-color: #099a71;
+  font-size: 25px;
+  color: white;
+  border: none;
+}
+.first-img .text-img button:hover {
+  background: #2caa84 radial-gradient(circle, transparent 1%, #2caa84 0) 50%/18000%;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.paymants {
+  margin-top: 500px;
+  margin-left: 150px;
+}
+.paymants h2 {
+  width: 600px;
+  font-size: 29px;
+}
+.paymants h4 {
+  width: 1000px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 body {

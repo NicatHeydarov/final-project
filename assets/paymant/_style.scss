@@ -1,0 +1,54 @@
+.first-img {
+    .slide-img {
+        background-color: #f1faf8;
+
+        img {
+            width: 713px;
+            margin-left: 980px;
+        }
+    }
+
+    .text-img {
+        margin-top: -540px;
+        margin-left: 56px;
+
+        h2 {
+            font-size: 30px;
+
+        }
+
+        h1 {
+            font-size: 30px;
+
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #099a71;
+            font-size: 25px;
+            color: white;
+            border: none;
+        }
+
+        button:hover {
+            background: #2caa84 radial-gradient(circle, transparent 1%, #2caa84 0) 50%/18000%;
+            color: #fff;
+            transition: 0.5s;
+        }
+    }
+}
+.paymants{
+margin-top: 500px;
+margin-left: 150px;
+h2{
+    width: 600px;
+    font-size: 29px;
+}
+h4{
+    width: 1000px;
+    color: rgba(0,0,0,.6);
+}
+}

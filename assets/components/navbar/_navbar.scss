@@ -1,4 +1,9 @@
 .navbars {
+    position: fixed;
+background-color: white;
+top: 0;
+left: 0;
+right: 0;
     .mainnav {
 
         nav {
@@ -61,11 +66,14 @@
     padding: 16px;
     font-size: 16px;
     border: none;
+    width: 100%;
+
   }
   
   .dropdown {
     position: relative;
     display: inline-block;
+    // width: 100%;
   }
   
   .dropdown-content {
@@ -82,6 +90,8 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    width: 100%;
+
   }
   
   .dropdown-content a:hover {background-color: #ddd;}

@@ -8,6 +8,8 @@
         display: flex;
 
         .credit-card {
+
+            text-decoration: none !important;
             display: block;
             margin-left: 100px;
             margin-top: 50px;
@@ -23,6 +25,7 @@
             h4{
                 color: black;
                 font-size: 27px;
+
             }
             li{
                 list-style: none;

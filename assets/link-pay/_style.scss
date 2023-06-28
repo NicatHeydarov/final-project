@@ -1,0 +1,164 @@
+.link-img {
+    margin-top: 73px;
+    background-color: rgb(223, 242, 236);
+    height: 489px;
+
+    img {
+        width: 45%;
+        margin-left: 926px;
+    }
+
+    .link-img-text {
+        margin-top: -400px;
+        margin-left: 50px;
+
+        h2 {
+            width: 727px;
+            font-size: 55px;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: gray;
+            font-weight: 500;
+        }
+    }
+
+    button {
+        margin-left: 50px;
+        font-size: 22px;
+        width: 180px;
+        height: 50px;
+        border: none;
+        background-color: #099a71;
+        color: white;
+    }
+
+    button:hover {
+        background-color: #2caa84;
+        transition: 0.5s;
+    }
+}
+
+.questions-link {
+    margin-left: 50px;
+    margin-top: 100px;
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 19px;
+        font-weight: 500;
+        color: gray;
+    }
+
+    .questions-links {
+        display: flex;
+
+        .question-link {
+            h3 {
+                margin-left: 75px;
+                margin-top: -63px;
+                font-size: 23px;
+                font-weight: 500;
+            }
+
+            h4 {
+                margin-top: -10px;
+                font-size: 20px;
+                width: 400px;
+                color: gray;
+                margin-left: 75px;
+            }
+        }
+    }
+
+    .question-link:nth-child(2) {
+        margin-left: 50px;
+    }
+
+    .question-link:nth-child(3) {
+        margin-left: 50px;
+    }
+}
+
+.img-links {
+    margin-top: 60px;
+
+    img {
+        height: 659px;
+        width: 100%;
+    }
+
+    h2 {
+
+        margin-top: -471px;
+        color: white;
+        margin-left: 50px;
+        font-size: 55px;
+        width: 717px;
+
+    }
+
+    button {
+        margin-left: 50px;
+        font-size: 22px;
+        width: 180px;
+        height: 50px;
+        border: none;
+        background-color: #099a71;
+        color: white;
+    }
+
+    button:hover {
+        background-color: #2caa84;
+        transition: 0.5s;
+    }
+}
+
+.xidmet {
+    margin-top: 400px;
+}
+
+.link-cards {
+    margin-top: 100px;
+
+    h1 {
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+   .card-links{
+display: flex;
+margin-top: 50px;
+   
+        .link-card {
+            margin-left: 50px;
+            width: 440px;
+            height: 230px;
+            box-shadow: 0 2px 7px rgba(0, 0, 0, .2);
+
+            h4 {
+                width: 438px;
+                font-weight: 500;
+                font-size: 18px;
+                margin-left: 10px;
+            }
+
+            button {
+                border: none;
+                font-size: 20px;
+                background-color: white;
+                margin-left: 10px;
+                color: #099a71;
+            }
+
+            h1 {
+                margin-left: 10px;
+            }
+        }
+    }
+    }

@@ -1,0 +1,302 @@
+.pos-img {
+    background-color: rgb(223, 242, 236);
+    height: 531px;
+
+    img {
+
+        width: 50%;
+        background-color: rgb(223, 242, 236);
+        margin-left: 600px;
+        margin-top: -307px;
+    }
+
+    .pos-img-text {
+        margin-top: -393px;
+        margin-left: 100px;
+
+        h3 {
+            font-size: 50px;
+            width: 748px;
+            font-weight: 500;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 500;
+            color: gray;
+        }
+
+        button {
+            font-size: 25px;
+            border: none;
+            margin-top: 19px;
+            width: 190px;
+            height: 70px;
+            background-color: #099a71;
+            color: white;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: #5fcfaf;
+            transition: 0.5s;
+        }
+    }
+}
+
+.pos-delivery {
+    margin-top: 100px;
+
+    .pos-delivery-texts {
+        margin-left: 100px;
+
+        h4 {
+            font-size: 18px;
+            font-weight: 500;
+            width: 1390px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    .pos-delivery-infoes {
+        margin-top: 150px;
+
+        .pos-delivery-info:first-child {
+            margin-left: 100px;
+
+        }
+
+        .pos-delivery-info {
+            display: flex;
+
+            svg {
+                margin-top: -62px;
+
+            }
+
+            margin-left: 50px;
+
+            .pos-delivery-info-text {
+                margin-left: 90px;
+                margin-top: -94px;
+
+                h4 {
+                    font-size: 17px;
+                    width: 359px;
+                    font-weight: 500;
+                    color: gray;
+                }
+
+                h2 {
+                    font-weight: 500;
+                    width: 330px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+.texts-money {
+    background-color: #f4f5f4;
+    margin-top: 150px;
+
+    height: 575px;
+
+    img {
+        margin-left: 880px;
+        width: 750px;
+        margin-top: 100px;
+    }
+
+    h1 {
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 40px;
+        width: 650px;
+        margin-top: -250px
+    }
+}
+
+.pos-terminals {
+    h2 {
+        margin-left: 50px;
+        font-size: 38px;
+        margin-top: 120px;
+        font-weight: 200;
+    }
+
+    h3 {
+        margin-top: 70px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+    .pos-terminals-info {
+        display: flex;
+
+        .pos-terminal-info {
+            .pos-terminal-info-texts {
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+                margin-top: -340px;
+                margin-left: 50px;
+                width: 686px;
+                height: 750px;
+
+
+                .pos-terminal-info-text {
+                    padding-top: 380px;
+                    margin-left: 60px;
+
+                    h3 {
+                        font-size: 30px;
+                        border-block-start: 1px solid gray;
+                        font-weight: 500;
+                    }
+
+                    li {
+                        font-size: 18px;
+                        list-style: none;
+                        margin-top: 15px;
+                        margin-left: 5px;
+                        color: gray;
+                    }
+
+                    .lots {
+                        display: grid;
+                        margin-top: 30px;
+
+                        .lot {
+                            font-size: 26px;
+                            width: 590px;
+                            border: none;
+                            background-color: white;
+                            color: #099a71;
+                        }
+
+                        .lot:hover {
+                            background-color: #5fcfaf;
+                            transition: 0.5s;
+                        }
+
+                        .acount {
+                            font-size: 26px;
+                            width: 590px;
+                            border: none;
+                            background-color: #099a71;
+                            color: white;
+                        }
+
+                        .acount:hover {
+                            background-color: #5fcfaf;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+
+            img {
+                margin-left: 260px;
+                width: 42%;
+                margin-top: 120px;
+            }
+        }
+    }
+}
+
+.xidmet {
+    h2{
+        margin-left: 50px;
+    }
+    .xidmet-lists {
+        display: flex;
+        .xidmet-list {
+            .xidmet-img-first {
+                background-color: #e0f3ed;
+                width: 84px;
+                margin-left: 50px;
+                height: 78px;
+                border-radius: 31px;
+
+                h1 {
+                    font-weight: 500;
+                    font-size: 55px;
+                    margin-left: 24px;
+                    color: #099a71;
+
+                }
+            }
+.xidmet-img-secound{
+    width: 84px;
+                margin-left: 50px;
+                height: 78px;
+                border-radius: 31px;
+    h1{
+        background-color: #ffebf0;
+    color: #e24353;
+    font-weight: 500;
+    font-size: 55px;
+    margin-left: 24px;
+    }
+}
+.xidmet-img-thre{
+    width: 84px;
+    margin-left: 50px;
+    height: 78px;
+    border-radius: 31px;
+    h1{
+        font-weight: 500;
+        font-size: 55px;
+        margin-left: 24px;
+        background-color: #51b998;
+        color: white;
+    }
+}
+
+            h3 {
+                width: 327px;
+                margin-left: 150px;
+                margin-top: -60px;
+                font-weight: 500;
+                color: gray;
+            }
+        }
+    }
+}
+.important{
+    margin-left: 50px;
+    h5{
+        margin-top: 100px;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .important-documents{
+        display: flex;
+    }
+    .important-document{
+        width: 430px;
+        height: 242px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        margin-left: 50px;
+.button{
+    color: #099a71;
+    font-size: 18px;
+}
+        h3{
+            font-size: 17px;
+            font-weight: 500;
+            width: 390px;
+            padding-top: 20px;
+        }
+        h4{
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+    }

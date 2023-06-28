@@ -1,0 +1,155 @@
+.sif-credit-img {
+    img {
+        width: 50%;
+        margin-left: 790px;
+    }
+
+    h1 {
+        margin-top: -475px;
+        font-size: 70px;
+        margin-left: 50px;
+        font-weight: 500;
+    }
+
+    h4 {
+        margin-left: 50px;
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+.sif-credit-cards {
+    margin-left: 50px;
+
+    h3 {
+        margin-top: 400px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .sif-credit-cards-about {
+        .sif-credit-card-about {
+            width: 1650px;
+            box-shadow: 0 2px 7px rgba(0, 0, 0, .2);
+            height: 650px;
+
+            img {
+                margin-left: 910px;
+                margin-top: -660px;
+                width: 30%;
+            }
+
+            button {
+                border: none;
+                color: #099a71;
+                margin-top: 50px;
+                margin-left: 50px;
+                font-size: 23px;
+                background-color: white;
+            }
+
+            button:hover {
+                background-color: #2caa84;
+                transition: 0.5s;
+                color: white;
+            }
+
+            h1 {
+                margin-top: 100px;
+                font-size: 36px;
+                font-weight: 500;
+                padding-top: 55px;
+            }
+
+            h3 {
+                margin-top: 0px;
+                margin-left: 50px;
+                font-size: 18px;
+                color: gray;
+            }
+
+            .percentagen {
+                display: flex;
+                margin-top: 60px;
+
+                .percentagen-card:nth-child(2) {
+                    margin-left: 300px;
+                }
+
+                .percentagen-card {
+                    h3 {
+                        margin-top: 0px;
+                        margin-left: 50px;
+
+                        font-size: 18px;
+                        color: gray;
+
+                    }
+
+                    h2 {
+                        margin-left: 50px;
+
+                    }
+                }
+            }
+
+            .percentagens {
+
+                display: flex;
+                margin-top: 60px;
+
+                .percentagen-cards:nth-child(2) {
+                    margin-left: 100px;
+                }
+
+                .percentagen-cards:nth-child(1) {
+
+                    h3 {
+                        width: 320px;
+
+                    }
+                }
+
+                .percentagen-cards {
+
+                    h3 {
+                        margin-top: 0px;
+                        margin-left: 50px;
+
+                        font-size: 18px;
+                        color: gray;
+
+                    }
+
+                    h2 {
+                        margin-left: 50px;
+
+                    }
+                }
+            }
+        }
+        .sif-credit-card-about:nth-child(2){
+            .percentagen{
+      
+                .percentagen-card:first-child{
+                    h3{
+                        width: 390px;
+                    }
+                }
+                }
+                .percentagens-card{
+                    h4{
+                        margin-left: 70px;
+                    
+                    
+                    
+                        font-weight: 200;
+                        font-size: 32px;
+                    }
+                    h3{
+                        margin-left: 73px;
+                    }
+                }
+        }
+    }
+}

@@ -321,3 +321,46 @@ button{
         }
     }
 }
+
+.accordion {
+  background-color: white;
+border: 1px solid black;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+.panel{
+    p{
+        width: 500px;
+        font-size: 20px;
+        color: gray;
+    }
+    button{
+        color: #099a71;
+        font-size: 20px;
+        border: none;
+    }
+}
+
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+  color: #099a71;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+h2{
+    font-weight: 200;
+    font-size: 32px;
+}
